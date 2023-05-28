@@ -1,8 +1,21 @@
-*{
-    
-}
-p{
-    font-size: 40px;
-    text-align: center;
-    margin-top: 100px;
-}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: blue;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  button:hover{
+    color: black;
+    box-shadow: 5px 5px 5px green;
+  }
