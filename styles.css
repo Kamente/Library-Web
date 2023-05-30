@@ -35,7 +35,13 @@ input[type="password"] {
   border-radius: 3px;
 }
 
-input[type="submit"] {
+
+
+input[type="submit"]:hover {
+  background-color: black;
+  
+}
+#submit{
   padding: 10px;
   background-color: #4caf50;
   color: white;
@@ -45,8 +51,7 @@ input[type="submit"] {
   font-size: 20px;
 }
 
-input[type="submit"]:hover {
-  background-color: black;
-  
+#submit:hover{
+  background-color: #f1f1f1;
+  color: black;
 }
-
